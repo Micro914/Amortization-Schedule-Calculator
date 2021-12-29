@@ -6,7 +6,7 @@ import Amortization from './Amortization';
 const Quoting = () => {
     return (
         <div>
-            <Header title={"AMORTIZATION SCHEDULE CALCULATOR"}/>
+            <Header title={"LOAN CALCULATOR"}/>
             <BodyPage title={"INPUT THE CORRECT DATA"} component={<Amortization />}/>
         </div>
     )
